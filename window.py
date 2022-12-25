@@ -19,7 +19,7 @@ class InicioSesion:
             relief = "ridge")
         self.canvas.place(x = 0, y = 0)
 
-        self.background_img = PhotoImage(file = f"background.png")
+        self.background_img = PhotoImage(file = f"backgroundw.png")
         self.background = self.canvas.create_image(
             632.0, 397.0,
             image=self.background_img)
@@ -54,7 +54,7 @@ class InicioSesion:
             width = 266.0,
             height = 41)
 
-        self.img0 = PhotoImage(file = f"img0.png")
+        self.img0 = PhotoImage(file = f"img00.png")
         self.b0 = Button(
             image = self.img0,
             borderwidth = 0,
@@ -67,7 +67,7 @@ class InicioSesion:
             width = 148,
             height = 43)
 
-        self.img1 = PhotoImage(file = f"img1.png")
+        self.img1 = PhotoImage(file = f"img11.png")
         self.b1 = Button(
             image = self.img1,
             borderwidth = 0,
@@ -80,7 +80,7 @@ class InicioSesion:
             width = 148,
             height = 21)
 
-        self.img2 = PhotoImage(file = f"img2.png")
+        self.img2 = PhotoImage(file = f"img22.png")
         self.b2 = Button(
             image = self.img2,
             borderwidth = 0,
